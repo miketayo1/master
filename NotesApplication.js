@@ -1,8 +1,8 @@
-class NotesApplication( ){
+function NotesApplication( ){
 
 	function note(authur, lst){
 		this.note = note;
-	    this.lst= ["abc", "xyz", "lmn" ]; 
+	    this.lst= [""]; 
 	    return lst;
 	}
 	var create =function(note_content){
