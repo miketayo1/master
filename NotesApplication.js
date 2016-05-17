@@ -1,4 +1,4 @@
-function NotesApplication( ){
+class NotesApplication( ){
 
 	function note(authur, lst){
 		this.note = note;
@@ -6,7 +6,7 @@ function NotesApplication( ){
 	    return lst;
 	}
 	var create =function(note_content){
-		note_content = ["aaaaa"];
+		note_content = "aaaaa";
 
 	}
 	function listNotes(){
