@@ -2,11 +2,12 @@ function NotesApplication( ){
 
 	function note(authur, lst){
 		this.note = note;
-	    this.lst= [""]; 
+	    this.lst= ["abc", "xyz"]; 
 	    return lst;
 	}
 	var create =function(note_content){
-		note_content = "aaaaa";
+		note_content =this.note;
+		
 
 	}
 	function listNotes(){
