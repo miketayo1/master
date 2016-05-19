@@ -1,12 +1,13 @@
- Array.prototype.notes = function(){
+ // Array.prototype.notes = function(){
 
- };
+ // };
 describe('array input', function(){
 
 	var notess = new NoteApplication();
+	var gdgd = ["aa","bb"];
 
 	 it('should be an array' ,  function(){
-	 	expect(notess.notes).toBe(Array);
+	 	expect(notess.notes).toBe(NoteApplication.prototype.notes = true);
 
 	
 	 });
@@ -20,7 +21,7 @@ it('Should create note', function(){
 		expect(typeof list_content.id).toBeNumber();
 	});
 it('Should List Note', function(){
-		expect(('Note ID: 1 /n Name /n By Author').list()).toBetrue();
+		expect(('Note ID: 1 /n Name /n By Author').list()).toBeTruthy();
 	});
 it('Should get note_id',function(){
 		expect((typeof note_id).get()).toBeNumber();
