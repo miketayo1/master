@@ -1,8 +1,9 @@
-var NoteApplication = function(){
+var NoteApplication = function(author){
    this.author = author;
-   this.list_content = {} 
-	this.list_content.id = 0
-	this.list_content.content = []
+   this.list_content = {} ;
+	this.list_content.id = 0;
+	this.list_content.content = [];
+	this.notes = [];
 };
 NoteApplication.prototype.create = function(note_content){
 	 this.list_content.id += 1;
